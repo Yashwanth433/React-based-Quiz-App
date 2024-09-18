@@ -1,0 +1,253 @@
+.mainmenu{
+    width: 213vh;
+    height: 100vh;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(251, 255, 31), rgb(241, 162, 15),rgb(240, 26, 26));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topdiv{
+    height: 19vh;
+    width: 213vh;
+    background: linear-gradient(to right, rgb(243, 215, 92), rgb(241, 162, 15),rgb(240, 26, 26));
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+.middiv{
+    height: 93vh;
+    width: 213vh;
+    background: linear-gradient(to right, rgb(251, 255, 31), rgb(241, 162, 15),rgb(240, 26, 26));
+    display: flex;
+    padding-top: 50px;
+}
+.mleft{
+    height: 93vh;
+    width: 170vh;
+    margin-top: -70px;
+}
+
+.mright{
+    height: 93vh;
+    width: 50vh;
+    margin-top: -70px;
+}
+
+.infodiv{
+    height: 600px;
+    width: 50%;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 490px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 5px rgb(2, 2, 2);
+}
+
+
+.infodiv1{
+    height: 600px;
+    width: 50%;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 490px;
+    border-radius: 20px;
+}
+
+.nextquest{
+    margin-top: 670px;
+    height: 90px;
+    width: 240px;
+    font-size: 26px;
+    font-weight: 500;
+    color: red;
+}
+.nextquest :hover{
+    height:92px ;
+    width:270px ;
+}
+.quizno{
+    height: 50px;
+    width: 100%;
+}
+
+.quizno p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.quizq{
+    height: 100px;
+    width: 92%;
+    background-color: rgb(181, 223, 230);
+    border: 10px solid rgb(43, 153, 180);
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 9px;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.quizq h1{
+    margin-left: 30px;
+}
+.options{
+    height: 370px;
+    width: 80%;
+    margin-left: 70px;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options button{
+    height: 70px;
+    width: 500px;
+    font-size: 25px;
+    font-weight: 8000;
+    background-color: rgb(181, 223, 230);
+    border: 2px solid rgb(59, 183, 231);
+    margin-top: 16px;
+    color: black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.options button:hover{
+    background-color: rgb(28, 198, 228);
+    width: 510px;
+}
+
+.name1{
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#p1{
+    font-size: 80px;
+    margin-left: 220px;
+    padding-top: 60px;
+}
+
+#p2{
+    font-size: 50px;
+    margin-top: -70px;
+}
+#mm{
+    height: 80px;
+    width: 300px;
+    margin-left: 200px;
+    font-size: 40px;
+    margin-top: 30px;
+}
+#mm p{
+    font-size: 30px;
+    margin-top: -8px;
+    margin-left: -5px;
+}
+#mm:hover{
+    height:84px ;
+}
+
+.bottom{
+    height: 130px;
+    width: 65%;
+    margin-left: 390px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+}
+
+.botbig{
+    height: 60px;
+    width: 60%;
+    display: flex;
+    margin-left: 160px;
+    margin-top: -30px;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.botsmall{
+    height: 60px;
+    width: 100%;
+}
+.botsmall p{
+    font-size: 25px;
+    margin-top: 30px;
+    color: black;
+    margin-left: 310px;
+}
+.bot1{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+}
+
+.menu1{
+    height: 50px;
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-image: url("helpers/images/menu.png");
+    background-size: contain;
+}
+
+.menu1:hover{
+    height:52px ;
+    width: px;
+}
+.logo{
+    height: 80px;
+    width: 140px;
+    margin-left: 30px;
+    background-image: url("helpers/images/mlogo.png");
+    background-size: contain;
+}
+.others{
+    height: 80px;
+    width: 100px;
+    margin-left: 1250px;
+
+}
+.profile{
+    height: 68px;
+    width: 68px;
+    margin-left: 80px;
+    margin-top: 10px;
+    background-image: url("helpers/images/profile.png");
+    background-size: contain;
+}
+#face{
+    height: 90px;
+    width: 90px;
+    background-image: url("helpers/images/twitter.png");
+    background-size: contain;
+}
+
+#insta{
+    background-image: url("helpers/images/link.png");
+    background-size: cover;
+}
+
+#you{
+    background-image: url("helpers/images/youtube.png");
+    background-size: cover;
+}
+
+#what{
+    background-image: url("helpers/images/whatsapp.png");
+    background-size: cover;
+}
+.bot1:hover{
+    height: 72px;
+    width: 72px;
+}
